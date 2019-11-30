@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Launcher",
+            "request": "launch",
+            "mainClass": "Launcher",
+            "projectName": "Sample Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Hello",
+            "args": "",
+            "projectName": "Sample Project"
+        },
+        {
+            "type": "java",
+            "name": "FrameRunner",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "FrameRunner",
+            "args": "",
+            "projectName": "Sample Project"
+        }
+    ]
+}
